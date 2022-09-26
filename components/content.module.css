@@ -1,0 +1,44 @@
+.dataContainer button {
+  display: flex;
+  margin: 3rem auto;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bolder;
+  padding: 0.5rem 2.5rem;
+  background-color: goldenrod;
+  border: 1px solid goldenrod;
+  transition: all 0.25s;
+}
+
+.dataContainer button:hover {
+  color: goldenrod;
+  background-color: #fff;
+}
+
+.role {
+  letter-spacing: 0.19rem;
+}
+
+.company {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  background-color: rgba(218, 165, 32, 0.4);
+  color: rgb(201, 144, 0);
+  padding: 0.4rem;
+}
+
+.date {
+  color: grey;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+.listDiv li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin: 1rem;
+  margin-left: -1.3rem;
+  font-weight: 500;
+  color: rgb(43, 42, 42);
+  letter-spacing: 0.03rem;
+}
